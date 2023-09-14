@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task-2 CSS</title>
+   <style>
+    .row{
+        display: flex;
+    }
+    h1{
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .box{
+        border: 2px black solid;
+        width: 300px;
+        height: 250px;
+        padding: 10px;
+        
+    }
+    .bg-container{
+        background-color: #76c9df;
+        background-size: cover;
+        height: 250px;
+    }
+    .home{
+        background-color: orange;
+        color: white;
+        padding: 10px;
+        font-family: 'Roboto';
+        font-size: 25px;
+    }
+    .common{
+        color: blue;
+        padding: 10px;
+        font-family: 'Roboto';
+        font-size: 25px;
+    }
+    .box2{
+        border: 2px black solid;
+        width: 400px;
+        height: 50px;
+        padding: 10px; 
+       }
+    .bg-container2{
+        background-color: lightgray;
+        background-size: cover;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .home2{
+        background-color:gray;
+        color: white;
+        padding: 10px;
+        font-family: 'Roboto';
+        font-size: 25px;
+    }
+    .border2{
+        border-right-color:blue;
+       border-right-style: solid;
+       border-right-width: thin;
+    }
+
+   </style>
+</head>
+<body>
+    <div class="row">
+    <div>
+        <h1 style="text-align: center;">Vertical Navigation Bar</h1>
+        <div class="box">
+            <div class="bg-container">
+                <div class="home">Home</div>
+                <div class="common">Java</div>
+                <div class="common">CSS</div>
+                <div class="common">HTML</div>
+                <div class="common">Bootstrap</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-left: 40px; align-self: center;">
+        <h1 style="text-align: center;">Horizontal Navigation Bar</h1>
+        <div class="box2">
+            <div class="bg-container2">
+                <div class="home2 border2">Home</div>
+                <div class="common border2">Java</div>
+                <div class="common border2">HTML</div>
+                <div class="common border2">CSS</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
